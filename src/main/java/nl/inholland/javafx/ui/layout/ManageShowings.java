@@ -228,7 +228,7 @@ public class ManageShowings extends VBox {
                         lblDisplayMessage.setText("");
                     } catch (Exception e) {
                         lblEndTime.setText("");
-                        lblDisplayMessage.setText("Attention: Invalid date and time");
+                        lblDisplayMessage.setText("Invalid date and time");
                     }
                 } else {
                     lblEndTime.setText("");

@@ -21,7 +21,7 @@ public class Database {
 
     //users
     private User admin = new User("Admin", "Admin", "Peter", User.Position.Admin);
-    private User customer = new User("Cashier", "Cashier", "Jan", User.Position.Cashier);
+    private User customer = new User("Desk", "Desk", "Jan", User.Position.Cashier);
 
     //movies
     private Movie noTimeToLie = new Movie("No time to lie", 125, 12.5);
